@@ -18,7 +18,11 @@ const Hello = () =>{
     
     // for add a heading h1
 
-    return React.createElement('div', null, React.createElement('h1', null, 'Hello Ibrahim'))
+    // return React.createElement('div', null, React.createElement('h1', null, 'Hello Ibrahim'))
+
+    return React.createElement('div', {id:'Hello', className:'dummyClass'},
+        React.createElement('h1', null, 'Hello Ibrahim Bhai')
+    )
 }
 
 export default Hello
