@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import  Greet  from './components/Greet'
+import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from './components/Message'
 
 function App() {
   return (
     <div className="App">
-     <Greet name='Ibrahim' heroName = "Batman">
+
+      <Message />
+
+
+      {/* <Greet name='Ibrahim' heroName = "Batman">
       <p>This is Children props</p>
       </Greet>
      <Greet  name='Fareeha' heroName = "Super Man">
@@ -16,8 +21,10 @@ function App() {
      <Greet  name= 'Shumaila' heroName = "Spider Man"/>
      <Welcome name='Ibrahim' heroName = "Batman" />
      <Welcome name='Fareeha' heroName = "Super Man"/>
-     <Welcome name= 'Shumaila' heroName = "Spider Man"/>
-     {/* <Hello /> */}
+     <Welcome name= 'Shumaila' heroName = "Spider Man"/> */}
+      {/* <Hello /> */}
+
+
     </div>
   );
 }
