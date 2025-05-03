@@ -5,16 +5,20 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
-import FunctionClick  from './components/FunctionClick';
-
+import FunctionClick  from './components/FunctionClick'
+import ClassClickk from './components/ClassClickk';
+import EventBind from './components/EventBind';
 function App() {
   return (
     <div className="App">
 
-<FunctionClick />
+      <EventBind />
+
+{/* <ClassClickk /> */}
+{/* <FunctionClick /> */}
 
       {/* <Counter />
-      <Message />
+      <Message /> 
 
 
        <Greet name='Ibrahim' heroName = "Batman">
